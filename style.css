@@ -53,18 +53,11 @@
 
 /* seccion main_container */
 
-.newtask {
-    width: 4%;
-    height: 4%;
-    line-height: 5px;
+.triangle {
+    width: 2%;
+    height: 2%;
+    line-height: 2px;
     vertical-align: middle;
-}
-
-.new-task {
-    color: black;
-    font-size: 16px;
-    vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bulletcheck {
@@ -74,18 +67,77 @@
     vertical-align: middle;
 }
 
-.quarterly-newsletter {
+.bulletx {
+    width: 1.7%;
+    height: 1.7%;
+    line-height: 1.7px;
+    vertical-align: middle;
+}
+
+.main-line {
     color: black;
     font-size: 16px;
     vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.editorial {
+.line {
+    color: black;
+    font-size: 16px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue {
     padding: 5px 10px;
     font-size: 10px;
     color: white;
     border-color: #66aaed;
     border-radius: 20%;
     background-color: #66aaed;
+}
+
+.violet {
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+    border-color: #9676df;
+    border-radius: 20%;
+    background-color: #9676df;
+}
+
+.green {
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+    border-color: #7bbcaa;
+    border-radius: 20%;
+    background-color: #7bbcaa;
+}
+
+.orange {
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+    border-color: #e7a04e;
+    border-radius: 20%;
+    background-color: #e7a04e;
+}
+
+.magenta {
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+    border-color: #cb6a9e;
+    border-radius: 20%;
+    background-color: #cb6a9e;
+}
+
+.green {
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+    border-color: #b4c74e;
+    border-radius: 20%;
+    background-color: #b4c74e;
 }
