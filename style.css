@@ -1,144 +1,121 @@
-/* header */
-.header {
-    background-color: white;
-
-}
-
-.logo img {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    vertical-align: middle;
-}
-
-.logo__name {
-    color: black;
-    font-size: 40px;
-    vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* seccion main */
 body {
     background-color: #f7f8fb;
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.main_container {
+.header {
     background-color: white;
-    margin: 5% 20%
+    padding: 10px 20px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.logo__text {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .main {
+    background-color: white;
+    margin: 60px 150px;
+    border-radius: 5px;
+}
+
+.toolbar {
+    padding: 15px 50px;
+    border-bottom: 2px solid #f7f8fb;
+}
+
+.button-container {
     display: flex;
-    gap: 7px;
-    background-color: white;
-    padding: 20px 35px;
-    border-radius: 3%;
+    gap: 10px;
 }
 
-.add-task {
-    padding: 4px 5px;
-    color: #f7f8fb;
-    border-color: #f7f8fb;
-    border-radius: 5%;
+.button {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 80%;
+}
+
+.button--blue {
     background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    color: white;
 }
 
-.add-section {
-    padding: 4px 5px;
-    color: gray;
-    border-color: black;
-    border-radius: 5%;
+.button--white {
     background-color: white;
+    border-color: gray;
+    color: gray;
 }
 
-/* seccion main_container */
-
-.triangle {
-    width: 2%;
-    height: 2%;
-    line-height: 2px;
-    vertical-align: middle;
+.program {
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-bottom: 15 px;
 }
 
-.bulletcheck {
-    width: 2%;
-    height: 2%;
-    line-height: 2px;
-    vertical-align: middle;
-}
-
-.bulletx {
-    width: 1.7%;
-    height: 1.7%;
-    line-height: 1.7px;
-    vertical-align: middle;
-}
-
-.main-line {
-    color: black;
+.activity {
+    font-family: sans-serif;
     font-size: 16px;
-    vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.line {
-    color: black;
-    font-size: 16px;
-    vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
+.bullet {
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 2px;
+    font-size: 8px;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+}
+
+.bullet--check {
+    color: green;
+}
+
+.bullet--ics {
+    color: red;
+}
+
+.badge {
+    color: white;
+    font-family: sans-serif;
+    font-size: 65%;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .blue {
-    padding: 5px 10px;
-    font-size: 10px;
-    color: white;
-    border-color: #66aaed;
-    border-radius: 20%;
     background-color: #66aaed;
 }
 
 .violet {
-    padding: 5px 10px;
-    font-size: 10px;
-    color: white;
-    border-color: #9676df;
-    border-radius: 20%;
     background-color: #9676df;
 }
 
 .green {
-    padding: 5px 10px;
-    font-size: 10px;
-    color: white;
-    border-color: #7bbcaa;
-    border-radius: 20%;
-    background-color: #7bbcaa;
+    background-color: #b4c74e;
+
 }
 
 .orange {
-    padding: 5px 10px;
-    font-size: 10px;
-    color: white;
-    border-color: #e7a04e;
-    border-radius: 20%;
-    background-color: #e7a04e;
+    background-color: #fd971e;
 }
 
 .magenta {
-    padding: 5px 10px;
-    font-size: 10px;
-    color: white;
-    border-color: #cb6a9e;
-    border-radius: 20%;
     background-color: #cb6a9e;
-}
-
-.green {
-    padding: 5px 10px;
-    font-size: 10px;
-    color: white;
-    border-color: #b4c74e;
-    border-radius: 20%;
-    background-color: #b4c74e;
 }

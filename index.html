@@ -4,94 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toboolist</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- seccion header -->
-
-    <div class="header">
+    <header class="header">
         <div class="logo">
-            <img src="img/Logo.png" alt="logo-toboolist">
-            <span class="logo__name">Toboolist
-            </span>
+            <img src="img/logo.png" alt="Logo toboolist blue e verde" class="logo__img">
+            <span class="logo__text">Toboolist</span>
         </div>
-    </div>
-
-    <!-- seccion main_container -->
-    <section class="main_container">
-
-        <!-- seccion main -->
-        <main class="main">
-            <div class="blue__main">
-                <span class="add-task">Add Task</spam>
+    </header>
+    <section class="main">
+        <div class="toolbar">
+            <div class="button-container">
+                <span class="button button--blue">Add Task</span>
+                <span class="button button--white">Add Section</span>
             </div>
-            <div class="white__main">
-                <span class="add-section">Add Section</span>
-            </div>
-        </main>
-
-
-        <div>
-            <img class="triangle" src="img/bullet.png" alt="bullet">
-            <span class="main-line">New Task
-            </span><br>
-            <img class="bulletcheck" src="img/bullet-check.png" alt="bullet-check">
-            <span class="line">Quarterly newsletter
-            </span><span class="editorial">Editorial</span>
-        </div><br>
-
-        <div>
-            <img class="triangle" src="img/bullet.png" alt="bullet">
-            <span class="main-line">Today
-            </span><br>
-
-            <img class="bulletcheck" src="img/bullet-check.png" alt="bullet-check">
-            <span class="line">Recruiting Blog Spot
-            </span>
-            <span class="violet">Q1 Goals</span><br>
-
-            <img class="bulletcheck" src="img/bullet-check.png" alt="bullet-check">
-            <span class="line">Mobile App Luaunch
-            </span>
-            <span class="blue">Editorial</span><br>
-
-            <img class="bulletx" src="img/bullet-x.png" alt="bullet-x">
-            <span class="line">Interview Jhon H.
-            </span>
-            <span class="green">Recruiting</span><br>
-
-            <img class="bulletcheck" src="img/bullet-check.png" alt="bullet-check">
-            <span class="line">Summit update to mobile storefronts
-            </span>
-            <span class="orange">Mobile</span><br><br>
-
-            <img class="triangle" src="img/bullet.png" alt="bullet">
-            <span class="main-line">Upcoming
-            </span><br>
-
-            <img class="bulletx" src="img/bullet-x.png" alt="bullet-x">
-            <span class="line">Schedule meeting whit Alex</span><br>
-
-            <img class="bulletcheck" src="img/bullet-check.png" alt="bullet-check">
-            <span class="line">Homepage refresh
-            </span>
-            <span class="magenta">Webiste</span><br>
-
-            <img class="bulletcheck" src="img/bullet-check.png" alt="bullet-check">
-            <span class="line">Onboard New Sales Team Members
-            </span>
-            <span class="green">Mobile</span><br>
-
-            <img class="bulletcheck" src="img/bullet-check.png" alt="bullet-check">
-            <span class="line">Review Editorial Calendar
-            </span>
-            <span class="blue">Editorial</span>
         </div>
+        <section class="agenda">
+            <div class="program">
+                <h2 class="program__title">▾ New Task</h2>
+                <div class="activity">
+                    <span class="bullet bullet--check">&#x2714;</span>
+                    <span>Quarterly Newsletter</span>
+                    <span class="badge blue">Editorial</span>
+                </div>
+            </div>
+            <div class="program">
+                <h2 class="program__title">▾ Today</h2>
+                <div class="activity">
+                    <span class="bullet bullet--check">&#x2714;</span>
+                    <span>Recruiting blog post</span>
+                    <span class="badge blue">Editorial</span>
+                </div>
+                <div class="activity">
+                    <span class="bullet bullet--check">&#x2714;</span>
+                    <span>Mobile app launch</span>
+                    <span class="badge violet">Q1 Goals</span>
+                </div>
+                <div class="activity">
+                    <span class="bullet bullet--ics">&#x2715;</span>
+                    <span>Interview Jhon H.</span>
+                    <span class="badge green">Recruiting</span>
+                </div>
+                <div class="activity">
+                    <span class="bullet bullet--check">&#x2714;</span>
+                    <span>Summit update to mobile store fronts</span>
+                    <span class="badge orange">Mobile</span>
+                </div>
+            </div>
+            <div class="program">
+                <h2 class="program__title">▾ Upcoming</h2>
+                <div class="activity">
+                    <span class="bullet bullet--ics">&#x2715;</span>
+                    <span>Schedule meeting whit Alex</span>
+                </div>
+                <div class="activity">
+                    <span class="bullet bullet--check">&#x2715;</span>
+                    <span>Homepage refresh</span>
+                    <span class="badge magenta">Website</span>
+                </div>
+                <div class="activity">
+                    <span class="bullet bullet--check">&#x2715;</span>
+                    <span>Onboard new Sales team members</span>
+                    <span class="badge green">Sales</span>
+                </div>
+                <div class="activity">
+                    <span class="bullet bullet--check">&#x2715;</span>
+                    <span>Review editorial calendar</span>
+                    <span class="badge blue">Editorial</span>
+                </div>
+            </div>
+        </section>
     </section>
-
-
 </body>
 
 </html>
