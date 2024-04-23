@@ -1,5 +1,5 @@
 /* header */
-.logo {
+.header {
     background-color: white;
 
 }
@@ -19,12 +19,13 @@
 }
 
 /* seccion main */
-.body {
+body {
     background-color: #f7f8fb;
 }
 
 .main_container {
-    margin: 30% 5%;
+    background-color: white;
+    margin: 5% 20%
 }
 
 .main {
